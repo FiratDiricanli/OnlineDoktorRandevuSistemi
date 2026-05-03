@@ -1,28 +1,27 @@
 # 🏥 Online Doktor Randevu Sistemi
 
-Hastaların ve doktorların randevu süreçlerini dijital bir platform üzerinden koordine etmelerini sağlayan, verimlilik odaklı bir **Sağlık Yönetim** yazılımıdır.
+Hastaların listeden doktor ve branş seçerek randevu saati belirledikleri basit bir **C# Windows Forms** randevu kayıt yazılımıdır.
 
 ---
 
 ## 🚀 Özellikler
 
-*   🩺 **Akıllı Randevu Yönetimi:** Uygun tarih ve saat dilimlerine göre randevu oluşturma.
-*   📋 **Hasta Kayıt Sistemi:** Hastaların kişisel bilgileri ve randevu geçmişi takibi.
-*   👨‍⚕️ **Doktor Organizasyonu:** Doktorların uzmanlık alanlarına (branşlarına) göre listelenmesi.
-*   🔄 **Durum Güncelleme:** Randevuların onay veya iptal durumlarının anlık izlenmesi.
+*   👨‍⚕️ **Doktor Listesi:** Bölümlere (Dahiliye, Göz vb.) göre ayrılmış doktorların görüntülenmesi.
+*   📅 **Randevu Al:** Uygun saat dilimine göre hasta isminin kaydedilmesi.
+*   🔄 **Randevu İptal:** Alınan randevuların listeden silinmesi.
+*   📋 **Hasta Bilgisi:** Hastanın ad-soyad ve şikayet bilgilerinin sisteme işlenmesi.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
 *   **C# (Windows Forms)**
-*   **.NET Framework**
-*   **Nesne Tabanlı Tasarım (OOP)**
+*   **İlişkisel Sınıf Mantığı**
 
 ---
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-1.  **Solution'ı Açın:** Visual Studio üzerinden projenin `.sln` dosyasını başlatın.
-2.  **Tasarımı Kontrol Edin:** `Form1.cs` dosyasına sağ tıklayıp **"View Designer"** diyerek arayüzü kontrol edin.
-3.  **Başlatın:** Üst paneldeki **"Start"** butonuyla randevu sistemini simüle etmeye başlayın.
+1.  Visual Studio ile solution dosyasını yükleyin.
+2.  Kod tarafında bir hata yoksa projeyi başlatın.
+3.  Doktor seçimi yapıp randevu oluşturarak sistemi deneyin.
