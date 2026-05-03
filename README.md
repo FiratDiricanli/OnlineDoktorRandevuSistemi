@@ -1,32 +1,28 @@
-🏥 Online Doktor Randevu Sistemi
-Bu proje, hastaların ve doktorların randevu süreçlerini dijital bir platform üzerinden koordine etmelerini sağlayan, verimlilik odaklı bir Sağlık Yönetim Sistemi yazılımıdır.
+# 🏥 Online Doktor Randevu Sistemi
 
-🩺 Proje Vizyonu
-Sağlık hizmetlerine erişimi kolaylaştırmayı amaçlayan bu uygulama; randevu çakışmalarını önlemek, doktor çalışma saatlerini organize etmek ve hasta kayıtlarını düzenli tutmak için Nesne Tabanlı Programlama (OOP) prensipleriyle geliştirilmiştir. Sistem, modüler yapısı sayesinde hastane veya klinik ölçeğine göre kolayca genişletilebilir.
+Hastaların ve doktorların randevu süreçlerini dijital bir platform üzerinden koordine etmelerini sağlayan, verimlilik odaklı bir **Sağlık Yönetim** yazılımıdır.
 
-🚀 Öne Çıkan Özellikler
-Akıllı Randevu Yönetimi: Uygun tarih ve saat dilimlerine göre yeni randevuların oluşturulması ve çakışma kontrolü.
+---
 
-Doktor ve Branş Organizasyonu: Doktorların uzmanlık alanlarına göre kategorize edilmesi ve çalışma takvimlerinin yönetimi.
+## 🚀 Özellikler
 
-Hasta Kayıt Sistemi: Hastaların kişisel bilgileri ve randevu geçmişleri ile sistem üzerinde tanımlanması.
+*   🩺 **Akıllı Randevu Yönetimi:** Uygun tarih ve saat dilimlerine göre randevu oluşturma.
+*   📋 **Hasta Kayıt Sistemi:** Hastaların kişisel bilgileri ve randevu geçmişi takibi.
+*   👨‍⚕️ **Doktor Organizasyonu:** Doktorların uzmanlık alanlarına (branşlarına) göre listelenmesi.
+*   🔄 **Durum Güncelleme:** Randevuların onay veya iptal durumlarının anlık izlenmesi.
 
-Randevu Durum Takibi: Randevuların "Beklemede", "Tamamlandı" veya "İptal Edildi" şeklinde anlık olarak güncellenmesi.
+---
 
-Branş Bazlı Filtreleme: Kullanıcıların ihtiyaç duydukları tıbbi bölüme (Dahiliye, Göz, KBB vb.) göre doktor araması yapabilmesi.
+## 🛠️ Kullanılan Teknolojiler
 
-🛠️ Teknik Altyapı
-Programlama Dili: Python.
+*   **C# (Windows Forms)**
+*   **.NET Framework**
+*   **Nesne Tabanlı Tasarım (OOP)**
 
-Mimari Yapı: Nesne Tabanlı Programlama (OOP).
+---
 
-Sınıf Modelleri: Doktor, Hasta, Randevu ve SistemYonetimi gibi özelleştirilmiş sınıflar arası ilişkisel modelleme.
+## ⚙️ Kurulum ve Çalıştırma
 
-🔧 Kurulum ve Kullanım
-Projeyi yerel makinenize klonlayın veya indirin.
-
-Bilgisayarınızda Python 3.x sürümünün kurulu olduğundan emin olun.
-
-Uygulamanın ana giriş modülünü (örneğin main.py) çalıştırın.
-
-Doktor tanımlamalarını yaptıktan sonra hasta kayıtları üzerinden randevu simülasyonunu başlatın.
+1.  **Solution'ı Açın:** Visual Studio üzerinden projenin `.sln` dosyasını başlatın.
+2.  **Tasarımı Kontrol Edin:** `Form1.cs` dosyasına sağ tıklayıp **"View Designer"** diyerek arayüzü kontrol edin.
+3.  **Başlatın:** Üst paneldeki **"Start"** butonuyla randevu sistemini simüle etmeye başlayın.
